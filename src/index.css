@@ -1,13 +1,7 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'M&SLondon';
+    src: local('M&SLondon-bold'), url('./assets/fonts/M&SLondon-Bold.otf') format('OpenType');
+    src: local('M&SLondon-light'), url('./assets/fonts/M&SLondon-Light.otf') format('OpenType');
+    src: local('M&SLondon-regular'), url('./assets/fonts/M&SLondon-Regular.otf') format('OpenType');
+    src: local('M&SLondon-semibold'), url('./assets/fonts/M&SLondon-Semibold.otf') format('OpenType');
 }

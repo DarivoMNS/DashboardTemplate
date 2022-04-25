@@ -1,0 +1,91 @@
+.sidebar {
+    flex: 1;
+    border-right: 0.5px solid #a29161;
+    min-height: 100vh;
+}
+
+.top {
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00573F;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr {
+    height: 0;
+    border: 0.5px solid #a29161;
+}
+
+.center {
+    padding-left: 10px;
+}
+
+.center ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 10px;
+    font-weight: bold;
+    color: #999;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.center ul li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    color: #000;
+    font-family: 'M&SLondon-regular', sans-serif;
+}
+
+.center ul li:hover,
+.center ul li:focus {
+    background-color: #A29161;
+    color: #fff;
+    font-family: 'M&SLondon-bold', sans-serif;
+}
+
+.center ul li span {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'M&SLondon-regular', sans-serif;
+    margin-left: 10px;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.colorOption {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #A29161;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.colorOption:nth-child(1) {
+    background-color: whitesmoke;
+}
+.colorOption:nth-child(2) {
+    background-color: #333;
+}

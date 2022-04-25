@@ -1,0 +1,11 @@
+.chartsPage {
+    display: flex;
+}
+
+.chartsContainer {
+    flex: 6;
+}
+
+.chartsArea {
+    padding: 5px 20px;
+}
